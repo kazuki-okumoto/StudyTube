@@ -1,0 +1,105 @@
+.header {
+  background-color: #fff;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header__inner {
+  display: flex;
+  padding: 0 16px;
+  height: 48px;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-btn-wrap {
+  margin-right: 32px;
+}
+
+.header__logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 24px;
+  height: 24px;
+}
+
+.header__title {
+  font-weight: bold;
+}
+
+.hero {
+  background-image: linear-gradient(to left, rgba(247, 247, 247, 0), rgba(247, 247, 247, 0) 20%, rgba(0, 0, 0, 0.8) 60%), url(../images/coffee-3080834_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 80px);
+  position: relative;
+}
+
+.hero__inner {
+  padding-top: 140px;
+  padding-left: 48px;
+}
+
+.hero__title {
+  color: white;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.hero__title--bottom {
+  margin-bottom: 40px;
+}
+
+.hero__concept {
+  color: white;
+  margin: 8px 0;
+}
+
+.hero__btn {
+  margin-top: 100px;
+}
+
+.hero__btn-wrap {
+  width: 100px;
+  display: grid;
+  gap: 16px;
+}
+
+.hero__btn-item {
+  color: white;
+  border: 1px solid white;
+  border-radius: 16px;
+  font-size: 12px;
+  padding: 8px 24px;
+  background-color: transparent;
+}
+
+.hero__btn-item--right {
+  margin-right: 16px;
+}
+
+.hero__btn-item:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  line-height: 32px;
+}
+
+.footer__inner {
+  height: 32px;
+  font-size: 12px;
+  color: grey;
+}
